@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "title": "seat_selection",
+  "description": "seat selection",
+  "properties": {
+    "environment": {
+      "col": "int",
+      "row": "int",
+      "name": "string",
+      "type": "string"
+    }
+  }
+}
