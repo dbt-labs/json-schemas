@@ -3,11 +3,17 @@
   "title": "seat_selection",
   "description": "seat selection",
   "properties": {
-    "environment": {
-      "col": "int",
-      "row": "int",
-      "name": "string",
-      "type": "string"
+    "col": {
+        "type": "integer"
+    },
+    "row": {
+        "type": "int"
+    },
+    "name": {
+        "type": "string"
+    },
+    "type": {
+        "type": "string"
     }
   }
 }
