@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "title": "seat_selection",
+  "title": "seat_select",
   "description": "seat selection",
   "properties": {
     "col": {
