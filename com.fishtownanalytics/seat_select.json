@@ -7,7 +7,7 @@
         "type": "integer"
     },
     "row": {
-        "type": "int"
+        "type": "integer"
     },
     "name": {
         "type": "string"
