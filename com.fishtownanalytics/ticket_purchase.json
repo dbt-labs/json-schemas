@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "title": "ticket_order",
+  "description": "ticket purchase",
+  "properties": {
+    "id": {
+        "type": "string"
+    },
+    "description": {
+        "type": "string"
+    },
+    "isCurrent": {
+        "type": "boolean"
+    },
+    "totalDiscountInCents": {
+        "type": "integer"
+    },
+    "totalLoyaltyPointsCost": {
+        "type": "integer"
+    },
+    "totalPriceInCents": {
+        "type": "integer"
+    },
+    "totalTicketFeeInCents": {
+        "type": "integer"
+    }
+  }
+}
