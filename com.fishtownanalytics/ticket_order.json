@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "title": "ticket_order",
+  "description": "ticket purchase",
+  "properties": {
+    "description": {
+        "type": "string"
+    },
+    "discountEachInCents": {
+        "type": "integer"
+    },
+    "discountQuantity": {
+        "type": "integer"
+    },
+    "includedFeeForDisplay": {
+        "type": "string"
+    },
+    "isCardPaymentPromotion": {
+        "type": "boolean"
+    },
+    "loyaltyPointsCost": {
+        "type": "integer"
+    },
+    "loyaltyRecognitionId": {
+        "type": "string"
+    },
+    "priceEachInCents": {
+        "type": "integer"
+    },
+    "quantity": {
+        "type": "integer"
+    },
+    "thirdPartyMemberCardNumber": {
+        "type": "string"
+    },
+    "ticketFeeEachInCents": {
+        "type": "integer"
+    },
+    "ticketTypeCode": {
+        "type": "string"
+    },
+    "voucherBarcode": {
+        "type": "string"
+    }
+  }
+}
