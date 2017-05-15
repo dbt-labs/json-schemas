@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "title": "ticket_order",
+  "title": "ticket_session",
   "description": "ticket purchase",
   "properties": {
     "id": {
